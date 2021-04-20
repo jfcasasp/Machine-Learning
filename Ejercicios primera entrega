@@ -1,5 +1,15 @@
-{ "cell_type": "markdown":
-#### Ejercicio 1.2
-a) Gratis, ganaste, ganador, oferta
-b) Buenos días, hola, cómo, estás, carta, trabajo
-c) }
+
+### Ejercicio 1.2
+(a) Gratis, ganaste, ganador, oferta
+(b) Buenos días, hola, cómo, estás, carta, trabajo
+(c) El parámetro $b$ pues dependiendo de si es grande o pequeño se determina que tantas palabras se leen como spam o no,
+
+### Ejercicio 1.3
+(a) Si $x(t)$ está mal clasificado por  $w(t)$, entonces $w^T(t)x(t)$ tiene signo contrario a $y(t)$, luego $y(t)w^T(t)x(t) \\gt 0$
+(b) \\begin{align*}\n",
+    "y(t)w^T(t+1)x(t) &= y(t) \\left(w(t)+y(t)x(t)\\right)^Tx(t) \\\\\",
+    "&= y(t)\\left(w^T(t) + y(t)x^T(t)\\right)x(t) \\\\\",
+    "&= y(t)w^T(t)x(t) + y(t)y(t)x^T(t)x(t)\\\\\",
+    "&\\gt y(t)w^T(t)x(t) \\;\\;\\;\\text{because the last term is } \\ge \\text{ than } 0\\\\\",
+    "\\end{align*}"
+    
