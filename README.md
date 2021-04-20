@@ -1,2 +1,4 @@
 # Machine-Learning
-Clase
+Repositorio para la clase introducción al aprendizaje de máquina
+Jose Casas
+Universidad Nacional de Colombia 
